@@ -31,7 +31,7 @@ export default function AboutSection() {
           return (
             <div
               key={index}
-              className="mx-auto w-96 h-60 px-2 border-x-[1.5px] border-y-[3px] text-white border-white flex flex-col items-center justify-center"
+              className="mx-auto w-[90vh] sm-w-96 h-60 px-2 border-x-[1.5px] border-y-[3px] text-white border-white flex flex-col items-center justify-center"
             >
               <div>
                 <h1>{item.title}</h1>
