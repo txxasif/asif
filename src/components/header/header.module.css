@@ -1,0 +1,16 @@
+.header{
+    margin: 0 18rem;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    
+}
+.header a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin: 1rem;
+    font-size: 1.8rem;
+}
