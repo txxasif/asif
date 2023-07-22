@@ -9,8 +9,8 @@ export default function Home() {
       <main className="box-border mx-auto h-auto flex flex-col sm:flex-row w-screen px-5 pb-5 overflow-hidden">
         <div className="w-full sm:w-1/2 text-white px-3 pt-4 m-auto flex space-y-3 flex-col justify-center">
           <p className=" text-sm font-bold"> Hey There 👋 I am</p>
-          <h1 className="font-bold text-5xl leading-10">Anisur Rahman</h1>
-          <h2 className="opacity-50">Mechanical Engineer</h2>
+          <h1 className="font-bold text-5xl leading-10">Amzad Hosen</h1>
+          <h2 className="opacity-50">Software Engineer</h2>
           <p className="leading-7">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
             interdum consequat convallis. Contact Me

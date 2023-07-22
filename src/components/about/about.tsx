@@ -31,19 +31,23 @@ export default function AboutSection() {
           return (
             <div
               key={index}
-              className="mx-auto w-[90vh] sm-w-96 h-60 px-2 border-x-[1.5px] border-y-[3px] text-white border-white flex flex-col items-center justify-center"
+              className="mx-auto sm:w-96 h-60 px-2 border-x-[1.5px] border-y-[3px] text-white border-white flex flex-col items-center justify-center"
             >
               <div>
-                <h1>{item.title}</h1>
-                <Image
-                  className="w-[42px] h-[42px]"
-                  src={item.src}
-                  width={240}
-                  height={280}
-                  alt="computer icon"
-                />
+                <div className="flex font-bold text-[26px] flex-col items-center justify-center my-1">
+                  <h1>{item.title}</h1>
+                  <Image
+                    className="w-[42px] h-[42px] my-2"
+                    src={item.src}
+                    width={240}
+                    height={280}
+                    alt="computer icon"
+                  />
+                </div>
               </div>
-              <h3>{item.description}</h3>
+              <div className="flex justify-center items-center">
+                <h3>{item.description}</h3>
+              </div>
             </div>
           );
         })}
