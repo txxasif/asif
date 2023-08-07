@@ -2,31 +2,33 @@ import Image from "next/image";
 import { Fragment } from "react";
 const data = [
   {
-    title: "Software Development",
+    title: "Programming Languages",
     src: "/icons/computer.svg",
     description:
-      "Experienced in both functional and OOP: Dart, Python, Java, JavaScript, TypeScript.",
+      "I have a strong knowledge of C, C++, Java, JavaScript, and TypeScript. I also have a strong understanding of Object-Oriented Programming (OOP) and Functional programming languages.",
   },
   {
     title: "Frontend Dev React, NextJS",
     src: "/icons/react.svg",
     description:
-      "Passionate about UI/UX. Over 4 years of development experience in HTML, CSS, JS, React and NextJS frameworks.",
+      "Enthusiastic about app development with proficiency in HTML, CSS, and JavaScript. Familiar with building applications using React and Next.js frameworks..",
   },
   {
-    title: "Flutter Dev Android, iOS",
+    title: "ReactNative Android, iOS",
     src: "/icons/mobile.svg",
     description:
-      "Skilled in developing hybrid mobile apps and cross-platform solutions using the Flutter framework.",
+      "Familiar with developing hybrid mobile apps and cross-platform solutions using the ReactNative framework.",
   },
 ];
 export default function AboutSection() {
   return (
     <Fragment>
-      <div className="w-full  text-white mt-4 flex  items-center justify-center text-7xl ">
-        My Expertise
+      <div className="w-full   text-white mt-4 flex  items-center justify-center text-7xl ">
+        <h1 className="text-transparent bg-clip-text bg-gradient-to-r from  from-bubble-gum to-bermuda my-3">
+          My Expertise
+        </h1>
       </div>
-      <div className="mt-5 flex flex-col sm:flex-row items-center justify-center">
+      <div className="mt-5 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-0">
         {data.map((item, index) => {
           return (
             <div

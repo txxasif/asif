@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import { motion } from "framer-motion";
 export function Header() {
   return (
     <div className="flex bg-primary flex-col sm:flex-row items-center mt-5 justify-between px-5 shadow">
@@ -24,13 +23,11 @@ export function Header() {
           Project
           <div className="border border-graydark scale-0 group-hover:scale-100 transition-all duration-100"></div>
         </Link>
-        <Link className="hover:text-blue_700 group" href="/">
-          Academics
-          <div className="border border-graydark scale-0 group-hover:scale-100 transition-all duration-100"></div>
-        </Link>
       </div>
       <div className="bg-blue px-4 py-2 rounded text-white font-bold text-sm mt-3 sm:mt-0">
-        Download CV
+        <Link href={"/cv.pdf"} download={"cv"} target="_blank">
+          Download CV
+        </Link>
       </div>
     </div>
   );
