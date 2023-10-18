@@ -33,7 +33,7 @@ export default function AboutSection() {
           return (
             <div
               key={index}
-              className="mx-auto sm:w-96 h-60 px-2 border-x-[1.5px] border-y-[3px] text-white border-white flex flex-col items-center justify-center"
+              className="mx-auto sm:w-96 h-72 px-2 border-x-[1.5px] border-y-[3px] text-white border-white flex flex-col items-center justify-center"
             >
               <div>
                 <div className="flex font-bold text-[26px] flex-col items-center justify-center my-1">
