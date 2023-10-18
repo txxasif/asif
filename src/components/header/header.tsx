@@ -3,17 +3,9 @@ import Image from "next/image";
 export function Header() {
   return (
     <div className="flex bg-primary flex-col sm:flex-row items-center mt-5 justify-between px-5 shadow">
-      <div className="mb-3 sm:mb-0 bg-white">
-        <Link href="/">
-          <Image
-            className="cursor-pointer"
-            src="/images/logo.svg"
-            width={110}
-            height={20}
-            alt=""
-          />
-        </Link>
-      </div>
+      <Link href="/" className="normal-case text-xl text-white">
+        Home
+      </Link>
       <div className="flex flex-col sm:flex-row justify-center sm:gap-5 text-white mt-3 sm:mt-0">
         <Link className="hover:text-blue group" href="/about">
           About
