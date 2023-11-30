@@ -5,8 +5,8 @@ import { Fragment } from "react";
 export default function AboutHead() {
   return (
     <Fragment>
-      <div className="bg-primary font-sans w-full flex flex-row  items-center mt-20">
-        <div className="card w-96 mx-auto bg-primary border-white border-y-[3px] border-x-[1.5px]  shadow-md  ">
+      <div className="font-sans w-full flex flex-row  items-center mt-20">
+        <div className="card w-96 mx-auto border-white border-y-[3px] border-x-[1.5px]  shadow-md  ">
           <Image
             className="w-32 mx-auto rounded-full -mt-20 border-8 border-white shadow-md"
             width={200}

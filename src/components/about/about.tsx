@@ -23,10 +23,8 @@ const data = [
 export default function AboutSection() {
   return (
     <Fragment>
-      <div className="w-full   text-white mt-4 flex  items-center justify-center text-7xl ">
-        <h1 className="text-transparent bg-clip-text bg-gradient-to-r from  from-bubble-gum to-bermuda my-3">
-          My Expertise
-        </h1>
+      <div className="w-full   mt-4 flex  items-center justify-center text-7xl ">
+        <h1 className="">My Expertise</h1>
       </div>
       <div className="mt-5 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-0">
         {data.map((item, index) => {
